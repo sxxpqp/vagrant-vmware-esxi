@@ -22,7 +22,7 @@ Vagrant.configure(2) do |config|
         esxi.esxi_virtual_network  = "VM Network"
         esxi.guest_numvcpus        = numvcpus
         esxi.guest_memsize         = memory
-        esxi.guest_storage         = storage
+        esxi.esxi_disk_store       = storage
         #esxi.clone_from_vm        = box
         esxi.local_allow_overwrite = 'True'
 
